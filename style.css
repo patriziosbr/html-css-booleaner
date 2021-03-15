@@ -6,11 +6,21 @@ h1{
 .p-small{
     font-size: 14px;
 }
+h5{
+    color: #818181;
+}
+h4{
+    color: #ffffff;
+    font-size: 24px;
+    padding: 16px 16px; /*non ho resistito*/
+
+}
 /*/formattazione testi*/
 
 .container{
     width: 1100px;
 }
+/*articolo*/
 header{
     height: 100px;
     background-color: #4EA0FF;
@@ -33,6 +43,9 @@ header{
 #bg-yellow{
     background-color: #FFFF00;
 }
+/*end articolo*/
+
+/*start tabella*/
 table{
     width: 100%;
 }
@@ -43,3 +56,21 @@ thead{
 .bg-table{
     background-color: #B1E5F2;
 }
+th.column{
+    width: 300px;
+    text-align: left;
+}
+/*end tabella*/
+
+/*footer*/
+.img-viola{
+    width: 270px;
+    height: 200px;
+    background-image: url("img/monitor.jpg");
+}
+.img-red{
+    width: 270px;
+    height: 200px;
+    background-image: url("img/graph.jpg");
+}
+/*end footer*/
