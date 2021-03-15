@@ -1,0 +1,28 @@
+*{
+    margin: 0; 
+}
+.container{
+    width: 900px;
+}
+header{
+    height: 90px;
+    background-color: #4EA0FF;
+}
+.bg-top{
+    height: 100%;
+    background-image: url("img/pattern.png");
+    background-size: 40%;
+}
+#logo{
+    height: 100%;
+    background-image: url("img/logo.svg");
+    background-position: 10px 50px;
+    background-repeat: no-repeat;
+    background-size: 15%;
+}
+h1{
+    font-size: 36px;
+}
+span{
+    color: #20A9E5;
+}
